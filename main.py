@@ -1,9 +1,7 @@
 language = "python3" 
 run = "python main.py"
-x = input("Enter number x:")
-y = input("Enter number y:")
-x=2
-y=3
+x = int(input("Enter number x:"))
+y = int(input("Enter number y:"))
 import math
 print("x**y =" , math.pow(x, y))
 import math
